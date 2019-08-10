@@ -1,0 +1,50 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
+
+body {
+  font-family: 'Blinker', sans-serif;
+}
+
+.fontWeight400 {
+  font-weight: 400;
+}
+.fontWeight500 {
+  font-weight: 500;
+}
+.fontWeight600 {
+  font-weight: 600;
+}
+.fontWeight700 {
+  font-weight: 700;
+}
+.fontWeight800 {
+  font-weight: 800;
+}
+
+.fontSize8 {
+  font-size: 8px;
+}
+.fontSize9 {
+  font-size: 9px;
+}
+.fontSize10 {
+  font-size: 10px;
+}
+.fontSize12 {
+  font-size: 12px;
+}
+.fontSize14 {
+  font-size: 14px;
+}
+.fontSize15 {
+  font-size: 15px;
+}
+.fontSize16 {
+  font-size: 16px;
+}
+.fontSize20 {
+  font-size: 20px;
+}
+a:hover {
+  text-decoration: none !important;
+}

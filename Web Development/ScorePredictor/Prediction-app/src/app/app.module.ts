@@ -4,10 +4,12 @@ import { NgbModule, NgbDropdown, NgbDropdownModule } from '@ng-bootstrap/ng-boot
 
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/shared.module';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

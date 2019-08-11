@@ -1,0 +1,29 @@
+.footballerImage{
+  height: 100%;
+  width: 100%;
+}
+.cricketerImage {
+  height: 100%;
+  width: 100%;
+}
+.jumbotron {
+  background-color: rgba(22, 160, 133,1.0);
+  color: #ffffff
+}
+.jumbotron hr {
+  background: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,1), rgba(255,255,255,0));
+  height: 1px;
+  border: none
+}
+.teamLogo {
+  height: 30px;
+  width: 30px;
+}
+.stadiumLogo {
+  height: 30px;
+  width: 30px;
+}
+.sportType {
+  height: 40px;
+  width: 40px;
+}

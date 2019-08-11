@@ -2,12 +2,14 @@ import { NgbModule, NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TopBarComponent } from './top-bar/top-bar.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
 @NgModule({
   declarations: [
-    TopBarComponent
+    TopBarComponent,
+    FooterComponent
   ],
   imports: [
     CommonModule,
@@ -15,7 +17,8 @@ import { TopBarComponent } from './top-bar/top-bar.component';
     NgbDropdownModule
   ],
   exports: [
-    TopBarComponent
+    TopBarComponent,
+    FooterComponent
   ],
   entryComponents: [
     TopBarComponent
